@@ -1,0 +1,50 @@
+.Center-div {
+  position: absolute;
+  max-width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Name-p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 46px;
+  color: #1C5D9B;
+  text-align: left;
+  float: top;
+}
+
+.Base-p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  float: top;
+}
+
+.Links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Link-dormant-a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  margin-top: 30px;
+  display: block;
+  float: top;
+}
+
+.Link-active-a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #1C5D9B ;
+  margin-top: 30px;
+  display: block;
+  float: top;
+}
+

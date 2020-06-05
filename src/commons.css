@@ -1,0 +1,38 @@
+.Back-div {
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.Back-dormant-a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 300%;
+  min-height: 100%;
+  position: relative;
+  left: 5%;
+  bottom: 0%;
+  text-decoration: none;
+  color: gray;
+  clear: both;
+}
+
+.Back-active-a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 300%;
+  min-height: 100%;
+  position: relative;
+  left: 5%;
+  bottom: 0%;
+  text-decoration: none;
+  color: #1C5D9B;
+  clear: both;
+}
+
+.Center-content-div {
+  width: 1200px;
+  max-width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  float: top;
+  clear: both;
+}

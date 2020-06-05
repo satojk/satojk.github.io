@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom'
+import React, { Component } from 'react';
+import Home from './Home/index';
+import Projects from './Projects/index';
+import Resume from './Resume/index';
+import ReadingList from './Reading-List/index';
+import Musings from './Musings/index';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <main>
+        <Switch>
+          <Route path={process.env.PUBLIC_URL + '/'} component={Home}/>
+          <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
+          <Route path={process.env.PUBLIC_URL + '/resume'} component={Resume}/>
+          <Route path={process.env.PUBLIC_URL + '/reading-list'} component={ReadingList}/>
+          <Route path={process.env.PUBLIC_URL + '/musings'} component={Musings}/>
+        </Switch>
+      </main>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,14 @@
+.About {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  float: top;
+}
+
+.Gray-note {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-color: gray;
+  text-align: justify;
+  float: top;
+}
