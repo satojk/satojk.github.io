@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/**
+ * Reset some basic elements
+ */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+body, h1, h2, h3, h4,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: "Nunito", "Arial", "Rubik", "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: #111;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 7.5px; }
+
+/**
+ * Set main page style
+ */
+.container {
+  min-height: 100%;
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;}
+
+/*for media*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 600px) {
+  .col-sm-10 {
+  float: left;
+  }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+.subtitle {
+  line-height: 30px;
+  color: #005b96; 
+  text-decoration: none;
+}
+
+.post-content p {
+  font-family: 'Lora', sans-serif;
+  padding: 3px 0; }
+.post-content-indent p {
+  font-family: 'Lora', sans-serif;
+  text-indent: 50px;
+  padding: 3px 0; }
+.post-content li {
+  font-family: 'Lora', sans-serif;
+  padding: 3px 0; }
+.post-content h1 {
+  font-size: 38px;
+  line-height: 1em; }
+  @media screen and (max-width: 800px) {
+    .post-content h1 {
+      font-size: 36px; } }
+.post-content h2 {
+  font-size: 32px;
+  line-height: 1em; }
+  @media screen and (max-width: 800px) {
+    .post-content h2 {
+      font-size: 28px; } }
+.post-content h3 {
+  font-size: 26px;
+  line-height: 1em; }
+  @media screen and (max-width: 800px) {
+    .post-content h3 {
+      font-size: 22px; } }
+.post-content h4 {
+  font-size: 20px;
+  line-height: 1em; }
+  @media screen and (max-width: 800px) {
+    .post-content h4 {
+      font-size: 18px; } }

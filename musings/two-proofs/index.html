@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+<title>Lucas Sato</title>
+
+<link rel="stylesheet" href="../../css/main.css">
+
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2 class="subtitle">
+      Two Proofs
+    </h2>
+
+    <article class="post-content-indent">
+        <p>Suppose you are playing soccer with your friends, and you want to 
+        keep track of which players are the best team players in the 
+        offense. So whenever a goal is scored, you write down who the last two 
+        players to touch the ball in the scoring team were. You figure that if 
+        someone is a good team player in the offense, they will show up in many 
+        such pairs. Specifically. a good team player should play well with a 
+        variety of different people, and so you are not too interested if the 
+        same pair scores one, or two, or three goals in a game. You are only 
+        really interested in how many different people a given person is 
+        able to score goals with. Moreover, if someone scores a goal completely 
+        alone, then that doesn't count - you're interested in assessing 
+        team-playing capabilities, after all.</p>
+
+        <p>After keeping this score for a while, and ranking players by how
+        many different people they have scored goals with, you begin to notice
+        that you always seem to have ties somewhere in the ranking. This is
+        obvious when there is only one goal in the game: each of the two
+        scoring players will have scored a goal with one other person (that is,
+        each other). But this shows up in more complicated patterns too: if
+        Annie scores a goal with Benjamin, but Benjamin also scores a goal with
+        Charlie, then Annie and Charlie are tied in second place, each with a
+        single goal. Now you're curious, and you start imagining different game
+        results, each more complicated than the other, trying to get a ranking
+        of team players with no ties. After a while with no success, you start
+        wondering whether this is impossible. It certainly seems so, but why
+        would that be?</p>
+
+        <p>Eventually, you realize something interesting. Since there are
+        eleven players to each team, each player can only score goals with at 
+        most ten other players. Additionally, of course, the minimum number of 
+        players someone could score goals with is zero. Between zero and 
+        ten, there are exactly eleven possible "scores" a player can get in the 
+        team-playing ranking, and you have exactly eleven players. If you want 
+        there to be no ties, you would need each of these eleven possible 
+        scores to be actual scores by players. If no player has a team-playing 
+        score of three, for example, then this means that two players must be 
+        tied with some other score, since there will only be ten possible 
+        different scores, for eleven players.</p>
+
+        <p>So now you know what scenario you need to draw up, and you get to 
+        work. But you still can't get all players to have distinct scores, and 
+        soon you realize why: a player can only have a score of zero if they 
+        score no goals with any other player. But a player can only have a 
+        score of ten if they score goals with all other players. You can't 
+        have both of these happen in the same match! If someone scored no goals 
+        with anyone else, then that means the maximum score someone else could 
+        have gotten is nine, not ten! Or alternatively, if Annie scored 
+        goals with everyone else in the team, then everyone else must have 
+        scored at least one goal with someone else - Annie, in the very 
+        least - and so no one can have a score of zero! Either way, the 
+        total number of possible scores is ten, not eleven. And since 
+        you have eleven players, that means there must be some single 
+        score which at least two players achieved.</p>
+    </article>
+
+  </div>
+
+</body>
+
+</html>
